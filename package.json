@@ -6,8 +6,8 @@
     "type": "git",
     "url": "https://github.com/tkeiyama/react-types"
   },
-  "main": "types/index.ts",
-  "types": "types/index.ts",
+  "main": "types/index.d.ts",
+  "types": "types/index.d.ts",
   "files": [
     "types"
   ],
