@@ -11,6 +11,7 @@
     "types"
   ],
   "scripts": {
+    "fix": "dprint fmt --verbose",
     "release": "scripts/release"
   },
   "keywords": [
@@ -21,6 +22,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.0.26",
+    "dprint": "^0.34.1",
     "np": "^7.6.2"
   }
 }

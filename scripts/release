@@ -1,4 +1,7 @@
 #!/bin/bash
 
+# Format
+pnpm fix
+
 # release
 pnpm np --yolo
