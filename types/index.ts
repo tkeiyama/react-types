@@ -1,1 +1,1 @@
-export * from './polymorphism'
+export * from "./polymorphism";

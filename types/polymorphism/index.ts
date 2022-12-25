@@ -29,9 +29,9 @@ export type PolymorphicComponentProp<
   & React.PropsWithChildren<Props & AsProp<Element>>
   & Omit<React.ComponentPropsWithoutRef<Element>, PropsKeys<Element, Props>>;
 
-  /**
-   * `PolymorphicComponentProp` with ref.
-   */
+/**
+ * `PolymorphicComponentProp` with ref.
+ */
 export type PolymorphicComponentPropWithRef<
   Element extends React.ElementType,
   Props = {},
