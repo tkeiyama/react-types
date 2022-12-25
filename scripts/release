@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# Format
+# format
 pnpm fix
+
+# build
+pnpm build
 
 # release
 pnpm np --yolo
