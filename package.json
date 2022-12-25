@@ -6,6 +6,7 @@
     "type": "git",
     "url": "https://github.com/tkeiyama/react-types"
   },
+  "main": "types/index.ts",
   "types": "types/index.ts",
   "files": [
     "types"
