@@ -19,6 +19,9 @@ export type PolymorphicRef<Element extends React.ElementType> = React.ComponentP
 /* ------------------------------
  * Polymorphic component types
  * ------------------------------*/
+/**
+ * A type for a polymorphic component.
+ */
 export type PolymorphicComponentProp<
   Element extends React.ElementType,
   Props = {},
@@ -26,6 +29,9 @@ export type PolymorphicComponentProp<
   & React.PropsWithChildren<Props & AsProp<Element>>
   & Omit<React.ComponentPropsWithoutRef<Element>, PropsKeys<Element, Props>>;
 
+  /**
+   * `PolymorphicComponentProp` with ref.
+   */
 export type PolymorphicComponentPropWithRef<
   Element extends React.ElementType,
   Props = {},
