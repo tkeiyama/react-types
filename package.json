@@ -1,6 +1,6 @@
 {
   "name": "@tkeiyama/react-types",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Utility types for React.",
   "types": "types/index.ts",
   "files": [
