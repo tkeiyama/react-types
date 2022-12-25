@@ -14,6 +14,9 @@ export interface AsProp<Element extends React.ElementType> {
 
 export type Merge<P1 = {}, P2 = {}> = Omit<P1, keyof P2> & P2;
 
+/**
+ * A polymorphic type for `ref`. `PolymorphicRef` needs a type to determine an element.
+ */
 export type PolymorphicRef<Element extends React.ElementType> = React.ComponentPropsWithRef<Element>["ref"];
 
 /* ------------------------------
