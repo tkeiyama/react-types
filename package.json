@@ -1,0 +1,22 @@
+{
+  "name": "@tkeiyama/react-types",
+  "version": "0.0.0",
+  "description": "Utility types for React.",
+  "types": "types/index.ts",
+  "files": [
+    "types"
+  ],
+  "scripts": {
+    "release": "scripts/release"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "polymorphism"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "np": "^7.6.2"
+  }
+}
