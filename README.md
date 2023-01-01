@@ -2,6 +2,12 @@
 
 Utility types for React.
 
+## Installation
+
+```
+pnpm add @tkeiyama/react-types
+```
+
 ## Types
 
 | Name         | Docs                                        | Description                                 |
