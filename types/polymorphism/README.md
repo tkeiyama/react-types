@@ -9,7 +9,7 @@ import {
   PolymorphicComponentPropWithRef,
   PolymorphicRef,
 } from "@tkeiyama/react-types";
-import { ElementType, FC, forwardRef, ReactElement } from "react";
+import { ElementType, forwardRef, ReactElement } from "react";
 
 export type TestProps<Element extends ElementType = "div"> =
   PolymorphicComponentPropWithRef<Element, {
